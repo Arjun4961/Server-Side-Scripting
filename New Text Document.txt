@@ -1,0 +1,13 @@
+<html>
+<body>
+<?PHP
+echo(“result with date():<br />”);
+echo(date(“i”) . “<br/>”);
+echo(date(“I ds \of F Y h:i:s A”) . “<br />”);
+echo(“result with time():<br />”);
+$t=time();
+echo($t . “<br />”);// it prints unix timestamp(seconds)
+echo(date(“D F d Y”,$t));
+?>
+</body>
+</html>
